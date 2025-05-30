@@ -1,0 +1,82 @@
+/* Top Footer */
+.topFooter {
+  position: relative;
+  background-image: url(/public/footer-bg.jpg);
+  background-size: cover;
+  padding: 40px 60px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footerColumns {
+  display: flex;
+  gap: 60px;
+  z-index: 1;
+}
+
+.footerColumns h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footerColumns ul {
+  list-style: none;
+  padding: 0;
+  font-size: 14px;
+}
+
+.footerColumns li {
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+
+.bgLogo {
+  position: absolute;
+  right: 300px;
+  bottom: 0;
+  height: 400px;
+  z-index: 0;
+}
+
+/* Bottom Footer */
+.bottomFooter {
+  background-color: rgb(42, 42, 42);
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  flex-wrap: wrap;
+}
+
+.signupBtn {
+  border: 2px solid rgb(2, 130, 249);
+  padding: 10px 20px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.signupBtn:hover {
+  background-color: rgb(2, 130, 249);
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.social span {
+  color: rgb(2, 130, 249);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.social img {
+  width: 20px;
+  height: 20px;
+}

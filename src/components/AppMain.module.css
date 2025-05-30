@@ -1,0 +1,35 @@
+.main {
+  width: 100%;
+}
+/* black bar */
+.blackBar {
+  background-color: rgb(28, 28, 28);
+  color: rgb(255, 255, 255);
+  text-align: start;
+  padding: 40px 90px;
+  font-size: 1rem;
+}
+
+/* blue bar */
+.blueBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(2, 130, 249);
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+/* icon box */
+.iconBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-size: 0,5rem;
+  gap: 1rem;
+}
+
+.iconBox img {
+  width: 40px;
+}

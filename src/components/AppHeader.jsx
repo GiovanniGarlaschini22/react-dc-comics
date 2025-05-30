@@ -41,6 +41,6 @@ function AppHeader() {
             </nav>
         </header>
     );
-}
+};
 
 export default AppHeader;

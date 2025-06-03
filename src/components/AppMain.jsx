@@ -6,7 +6,6 @@ function AppMain() {
         <main className={styles.main}>
 
             <div className={styles.blackBar}>
-                <h2>&ndash;&gt; Content goes here &lt;&ndash;</h2>
             </div>
 
 

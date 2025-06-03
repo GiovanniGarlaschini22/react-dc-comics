@@ -4,6 +4,9 @@
 /* black bar */
 .blackBar {
   background-color: rgb(28, 28, 28);
+  background-image:url(/src/assets/jumbotron.jpg);
+  background-size: cover;
+  height: 300px;
   color: rgb(255, 255, 255);
   text-align: start;
   padding: 40px 90px;
